@@ -15,8 +15,10 @@ body {
   align-items: center;
 }
 
+/*se cambio el tamaño del icono de la barra de navegacion*/
+
 .icon-image {
-  max-width: 130px;
+  max-width: 100px;
   max-height: 100px;
   margin-right: 20px;
 }
@@ -29,8 +31,9 @@ body {
   z-index: 1;
 }
 
+/*se cambio el color del background de la barra de navegacion*/
 nav {
-  background-color: rgb(172, 28, 28);
+  background-color: rgb(190, 147, 5);
   padding: 1px;
   width: 100%;
   display: flex;
@@ -41,12 +44,13 @@ nav {
   z-index: 1000;
 }
 
+/* se cambio la fuente de la barra de navegacion*/
 nav a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   margin: 10px 15px;
-  font-size: 24px;
-  font-family: 'Rubik Doodle Shadow', sans-serif;
+  font-size: 22px;
+  font-family: 'Lobster', cursive;
 }
 
 /* Estilo para las secciones debajo de la imagen */
@@ -96,14 +100,18 @@ section {
 h2 {
   text-align: center;
 }
-.navbar img[src="img/shapes/BARRA DE N.png"] {
-  height: 90px; 
-  width: 700px; 
-}
+
 
 .link {
   color: rgb(255, 2, 2);
 }
+
 .rifle {
   color: rgb(38, 9, 117);
+}
+
+/*se redujo el tamaño de la imagen de la barra de navegacion*/
+.barranav {
+  width: 500px;
+  height: 100px;
 }
